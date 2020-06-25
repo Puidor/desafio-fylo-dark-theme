@@ -233,7 +233,7 @@ main {
   display: flex;
   gap: 15px;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   margin: auto;
   align-items: center;
   text-align: center;
@@ -336,7 +336,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
+  .formDiv {
+    grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
+  }
   .footer-2 {
     align-items: flex-start;
     width: 100%;
