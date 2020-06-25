@@ -6,6 +6,7 @@
 body {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  background-color: hsl(218, 28%, 13%);
 }
 /*-------------- HEADER --------------*/
 header {
@@ -262,4 +263,44 @@ main {
 .formDiv-form input {
   padding: 10px 50px 10px 50px;
   border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: hsl(216, 53%, 9%);
+  color: white;
+  padding: 50px;
+  margin-top: 50px;
+}
+.footer-second-line {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 50px;
+}
+.foot1-location {
+  display: flex;
+  gap: 15px;
+  text-align: justify;
+}
+.foot1-location img {
+  padding-top: 2px;
+  height: 20px;
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-5 {
+  display: flex;
+  gap: 20px;
+}
+.footer-5 .logo-icons {
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
